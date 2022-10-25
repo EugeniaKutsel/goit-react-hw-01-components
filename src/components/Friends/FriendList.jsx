@@ -1,4 +1,5 @@
 import FriendListItem from "./FriendListItem";
+import css from "../Friends/Friends.module.css";
 
 const FriendList = ({friends}) => {
   const elements = friends.map(friend =>
@@ -10,7 +11,7 @@ const FriendList = ({friends}) => {
     />)
   
   return (
-    <ul className="friend-list">
+    <ul className={css.friend__list}>
         {elements}
     </ul>
   )
