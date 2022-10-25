@@ -12,7 +12,7 @@ const FriendList = ({friends}) => {
     />)
   
   return (
-    <ul className={css.friend__list}>
+    <ul className={css.friendList}>
         {elements}
     </ul>
   )
